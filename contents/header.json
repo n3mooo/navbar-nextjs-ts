@@ -1,0 +1,35 @@
+{
+  "menu": [
+    {
+      "name": "Home",
+      "submenu": true,
+      "sublinks": [
+        {
+          "url": "/about",
+          "subName": "About",
+          "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam voluptas et nam impedit odit fuga."
+        },
+        {
+          "url": "/service",
+          "subName": "Service",
+          "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam voluptas et nam impedit odit fuga."
+        },
+        {
+          "url": "/portfolio",
+          "subName": "Portfolio",
+          "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam voluptas et nam impedit odit fuga."
+        }
+      ],
+      "url": ""
+    },
+    {
+      "name": "News",
+      "submenu": false,
+      "sublinks": [],
+      "url": "/news"
+    }
+  ],
+  "logo": "",
+  "btnContent": "Contact",
+  "url": "/contact"
+}

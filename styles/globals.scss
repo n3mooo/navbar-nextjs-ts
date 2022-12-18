@@ -1,0 +1,75 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-color: #fff;
+  font-family: 'Inter';
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+select {
+  cursor: pointer;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+iframe {
+  border: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
